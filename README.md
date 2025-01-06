@@ -34,6 +34,10 @@ Este projeto utiliza a API pública [SWAPI](https://www.swapi.tech/api/) para ex
    - No navegador, digite: `http://localhost/starwars` (ajuste conforme o local onde o projeto foi salvo).
 
 ## Documentação da API
+### Como funciona?
+- O Font-end (JavaScript) envia dois paramêtros `menu` e se necessário o `ID`
+- O Back-end (PHP) Pega esses dados e monta a URL, fazendo isso ele tem acesso ao JSON da [SWAPI](https://www.swapi.tech/api/), ele pega os dados e retorna em Json para o Javascript pegar os valores e informar no front-end
+
 ### Endpoints Utilizados
 - O projeto consome dados da API pública: [SWAPI](https://www.swapi.tech/api/).
 
