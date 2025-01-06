@@ -51,20 +51,30 @@ Perceba que o menu informado é films e o ID é 1, logo a minha resposta do back
 ### Endpoints Utilizados
 - O projeto consome dados da API pública: [SWAPI](https://www.swapi.tech/api/).
 
-1. **/films** - Retorna todos os filmes
-   **/films/{id}** - Retorna as informações do filme
+1. *FILMES* 
 
-2. **/people** - Retorna os personagens
-   **/people/{id}** - Retorna as informações do personagem
+-**/films** - Retorna todos os filmes
+-**/films/{id}** - Retorna as informações do filme
 
-3. **/starship** - Retorna todas as naves dos filmes
-   **/starship/{id}** - Retorna as informações da nava
+2. *PERSONAGENS*
 
-4. **/species** - Retorna todas as especies dos filmes
-   **/species/{id}** - Retorna as informações da espécie
+-**/people** - Retorna os personagens
+-**/people/{id}** - Retorna as informações do personagem
 
-5. **/planets** - Retorna todos os planetas dos filmes
-   **/planets/{id}** - Retorna as informações dos planetas 
+3. *NAVES*
+
+-**/starship** - Retorna todas as naves dos filmes
+-**/starship/{id}** - Retorna as informações da nava
+
+4. *ESPÉCIES*
+
+-**/species** - Retorna todas as especies dos filmes
+-**/species/{id}** - Retorna as informações da espécie
+
+5. *PLANETAS* 
+
+-**/planets** - Retorna todos os planetas dos filmes
+-**/planets/{id}** - Retorna as informações dos planetas 
 
 
 ### Métodos HTTP
