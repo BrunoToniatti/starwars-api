@@ -58,7 +58,7 @@ include '../backend/Database.php';
                 filmElement.innerHTML = `
                     <h3>${film.properties.title}</h3>
                     <p><strong>Data de Lançamento:</strong> ${formataData(film.properties.release_date)}</p>
-                    <a href="detail.php?id=${film.uid}">Link para mais informações</a>
+                    <a href="detail.html?id=${film.uid}">Link para mais informações</a>
                     <hr>
                 `;
                 filmListDiv.appendChild(filmElement);

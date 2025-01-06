@@ -107,10 +107,10 @@
             }
             
             // Chama as funções de tabela para cada seção
-            createTable('Personagens', properties.characters || [], 'details_personagem.php?id=');
-            createTable('Planetas', properties.planets || [], 'details_planeta.php?id=');
-            createTable('Naves', properties.starships || [], 'details_nave.php?id=');
-            createTable('Espécies', properties.species || [], 'details_especie.php?id=');
+            createTable('Personagens', properties.characters || [], 'details_personagem.html?id=');
+            createTable('Planetas', properties.planets || [], 'details_planeta.html?id=');
+            createTable('Naves', properties.starships || [], 'details_nave.html?id=');
+            createTable('Espécies', properties.species || [], 'details_especie.html?id=');
 
             document.querySelector('.adicionais-filme').innerHTML = charactersTable + planetsTable + starshipsTable + speciesTable;
         })
@@ -121,7 +121,7 @@
 
     <div class="cabecalho">
         <h1>&nbsp;</h1>
-        <p><a href="index.php">Voltar para o catálogo de filmes</a></p>
+        <p><a href="index.html">Voltar para o catálogo de filmes</a></p>
     </div>
 
     <div class="container">
