@@ -31,7 +31,7 @@ Este projeto utiliza a API pública [SWAPI](https://www.swapi.tech/api/) para ex
    - Ative os serviços `Apache` e `MySQL`.
 
 4. **Acesse o projeto**:
-   - No navegador, digite: `http://localhost/starwars` (ajuste conforme o local onde o projeto foi salvo).
+   - No navegador, digite: `http://localhost/starwars/Frontend` (ajuste conforme o local onde o projeto foi salvo).
 
 ## Documentação da API
 ### Como funciona?
