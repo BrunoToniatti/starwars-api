@@ -34,16 +34,16 @@
 
             document.querySelector('title').innerHTML += planeta_propriedades.name;
             document.querySelector('.container h1').innerHTML = planeta_propriedades.name;
-            document.querySelector('.container h2').innerHTML += mascara_populacao(planeta_propriedades.population);
-            document.querySelector('.container h3').innerHTML += planeta_propriedades.terrain;
-            document.querySelector('.container h4').innerHTML += planeta_propriedades.climate;
+            document.querySelector('.pop').innerHTML += mascara_populacao(planeta_propriedades.population);
+            document.querySelector('.terreno').innerHTML += planeta_propriedades.terrain;
+            document.querySelector('.clima').innerHTML += planeta_propriedades.climate;
         })
     </script>
     <div class="container">
         <h1></h1>
-        <h2>População: </h2>
-        <h3>Terreno: </h3>
-        <h4>Clima: </h4>
+        <h2 class="pop">População: </h2>
+        <h2 class="terreno">Terreno: </h2>
+        <h2 class="clima">Clima: </h2>
     </div>
 </body>
 </html>
