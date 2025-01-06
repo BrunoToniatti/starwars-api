@@ -40,15 +40,13 @@ Este projeto utiliza a API pública [SWAPI](https://www.swapi.tech/api/) para ex
 
 ### Como utilizar a API local:
 #### Para utilizar a API local sera necessário passar pelo front-end o `menu` e o `id`, para que o back-end trate a requisição
--Exemplo:
+- Segue código de exemplo:
 ```
-menu = films
-id = 1
-
-http://localhost/starwars/backend/index.php/api/films?menu=films&id=1
+filmId = 1
+fetch(`http://localhost/starwars/backend/index.php/api/films?menu=films&id=${filmId}`)
 
 ```
-Neste exemplo a API local irá retornar os dados do primeiro filme
+Perceba que o menu informado é films e o ID é 1, logo a minha resposta do back-end será todas as informações do primeiro filme
 
 ### Endpoints Utilizados
 - O projeto consome dados da API pública: [SWAPI](https://www.swapi.tech/api/).
