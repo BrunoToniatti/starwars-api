@@ -38,8 +38,36 @@ Este projeto utiliza a API pública [SWAPI](https://www.swapi.tech/api/) para ex
 - O Font-end (JavaScript) envia dois paramêtros `menu` e se necessário o `ID`
 - O Back-end (PHP) Pega esses dados e monta a URL, fazendo isso ele tem acesso ao JSON da [SWAPI](https://www.swapi.tech/api/), ele pega os dados e retorna em Json para o Javascript pegar os valores e informar no front-end
 
+### Como utilizar a API local:
+#### Para utilizar a API local sera necessário passar pelo front-end o `menu` e o `id`, para que o back-end trate a requisição
+-Exemplo:
+```
+menu = films
+id = 1
+
+http://localhost/starwars/backend/index.php/api/films?menu=films&id=1
+
+```
+Neste exemplo a API local irá retornar os dados do primeiro filme
+
 ### Endpoints Utilizados
 - O projeto consome dados da API pública: [SWAPI](https://www.swapi.tech/api/).
+
+1. **/films** - Retorna todos os filmes
+   **/films/{id}** - Retorna as informações do filme
+
+2. **/people** - Retorna os personagens
+   **/people/{id}** - Retorna as informações do personagem
+
+3. **/starship** - Retorna todas as naves dos filmes
+   **/starship/{id}** - Retorna as informações da nava
+
+4. **/species** - Retorna todas as especies dos filmes
+   **/species/{id}** - Retorna as informações da espécie
+
+5. **/planets** - Retorna todos os planetas dos filmes
+   **/planets/{id}** - Retorna as informações dos planetas 
+
 
 ### Métodos HTTP
 - Apenas `GET` é utilizado para recuperar informações.
