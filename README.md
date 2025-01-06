@@ -53,28 +53,28 @@ Perceba que o menu informado é films e o ID é 1, logo a minha resposta do back
 
 1. *FILMES* 
 
--**/films** - Retorna todos os filmes
--**/films/{id}** - Retorna as informações do filme
+- **/films** - Retorna todos os filmes
+- **/films/{id}** - Retorna as informações do filme
 
 2. *PERSONAGENS*
 
--**/people** - Retorna os personagens
--**/people/{id}** - Retorna as informações do personagem
+- **/people** - Retorna os personagens
+- **/people/{id}** - Retorna as informações do personagem
 
 3. *NAVES*
 
--**/starship** - Retorna todas as naves dos filmes
--**/starship/{id}** - Retorna as informações da nava
+- **/starship** - Retorna todas as naves dos filmes
+- **/starship/{id}** - Retorna as informações da nava
 
 4. *ESPÉCIES*
 
--**/species** - Retorna todas as especies dos filmes
--**/species/{id}** - Retorna as informações da espécie
+- **/species** - Retorna todas as especies dos filmes
+- **/species/{id}** - Retorna as informações da espécie
 
 5. *PLANETAS* 
 
--**/planets** - Retorna todos os planetas dos filmes
--**/planets/{id}** - Retorna as informações dos planetas 
+- **/planets** - Retorna todos os planetas dos filmes
+- **/planets/{id}** - Retorna as informações dos planetas 
 
 
 ### Métodos HTTP
